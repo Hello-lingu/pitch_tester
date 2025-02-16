@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=pitch tester
+Comment=A program to test pitch by microphone
+Exec=/usr/bin/pitch_tester
+Terminal=false
+Type=Application

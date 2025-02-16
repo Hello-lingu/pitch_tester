@@ -5,7 +5,9 @@ pitch_tester: pitch_tester.c
 	gcc $(RELEASE_FLAGS) $< -o $@ $(LIBS)
 
 install: pitch_tester
-	cp -r pitch_tester /usr/bin/
+	cp pitch_tester /usr/bin/
+	cp pitch_tester.desktop /usr/share/applications/
 
 remove:
 	rm -i /usr/bin/pitch_tester
+	rm -i /usr/share/applications/pitch_tester.desktop

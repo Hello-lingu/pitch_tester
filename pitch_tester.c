@@ -60,6 +60,7 @@ int main() {
     }
 
     root = LCUIWidget_GetRoot();
+    Widget_SetTitleW(root, L"pitch tester");
     Widget_Unwrap(xml);
 
     // 获取界面组件引用
@@ -156,7 +157,6 @@ int main() {
         Widget_SetText(freq_display, freq_text);
         Widget_SetText(note_display, note_text);
 
-        LCUI_ProcessEvents();
         LCUI_RunFrame();
     }
 

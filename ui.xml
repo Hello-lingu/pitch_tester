@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lcui-app>
+    <resource type="text/css" src="style.css"/>
+
+    <ui title="音频检测" width="400" height="200">
+        <textview id="note-display" class="display-text">A4</textview>
+        <textview id="freq-display" class="display-text">0.0 Hz</textview>
+        <button id="btn-exit" class="exit-btn">exit</button>
+    </ui>
+</lcui-app>

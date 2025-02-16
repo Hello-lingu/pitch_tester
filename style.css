@@ -1,0 +1,26 @@
+.display-text {
+    text-align: center;
+}
+
+.exit-btn {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 24px;
+    margin: 30px 44%;
+}
+
+.exit-btn:hover {
+    background-color: #c0392b;
+}
+
+#note-display {
+    margin-top: 40%;
+    font-size: 60px;
+}
+
+#freq-display {
+    font-size: 24px;
+}

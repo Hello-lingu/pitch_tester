@@ -3,3 +3,9 @@ RELEASE_FLAGS = -o3 -march=native -flto -funroll-loops -ffast-math -ftree-vector
 
 pitch_tester: pitch_tester.c
 	gcc $(RELEASE_FLAGS) $< -o $@ $(LIBS)
+
+install: pitch_tester
+	cp -r pitch_tester /usr/bin/
+
+remove:
+	rm -i /usr/bin/pitch_tester
